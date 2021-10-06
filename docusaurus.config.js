@@ -6,11 +6,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'AllenZCH\'s Wiki',
-  url: 'https://wiki.timber3252.me',
+  url: 'https://wiki-murex.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/avatar.32x.jpg',
+  favicon: 'img/avatar.64x.png',
 
   presets: [
     [

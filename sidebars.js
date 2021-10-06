@@ -12,5 +12,31 @@
 module.exports = {
   docs: [
     'home',
+    {
+      type: 'category',
+      label: '数学',
+      items: [
+        'math/analysis/极限',
+        'math/analysis/连续性',
+        'math/algebra/杂项'
+      ],
+    },
+    {
+      type: 'category',
+      label: '物理',
+      items: [
+        'physics/测量与实验',
+        'physics/古典力学',
+        'physics/大学物理实验',
+      ]
+    },
+    {
+      type: 'category',
+      label: '电路',
+      items: [
+        'physics/电路',
+        'physics/图'
+      ]
+    }
   ],
 };
