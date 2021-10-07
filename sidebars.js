@@ -26,8 +26,10 @@ module.exports = {
       label: '物理',
       items: [
         'physics/测量与实验',
-        'physics/古典力学',
+        'physics/理论力学',
         'physics/大学物理实验',
+        'physics/原子物理',
+        'physics/振动与波动'
       ]
     },
     {
