@@ -6,11 +6,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'AllenZCH\'s Wiki',
-  url: 'https://wiki-murex.vercel.app',
+  url: 'https://wiki.allenzch.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/avatar.64x.png',
+  favicon: 'img/avatar.46px.png',
 
   presets: [
     [
@@ -38,6 +38,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ({
       navbar: {
         title: 'AllenZCH\'s Wiki',
+        logo: {
+          src: 'img/avatar.46px.png',
+          srcDark: 'img/avatar-dark.46px.png',
+        }
       },
       prism: {
         theme: lightCodeTheme,
