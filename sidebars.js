@@ -17,7 +17,11 @@ module.exports = {
       label: '数学',
       items: [
         'math/analysis/极限',
+        'math/analysis/拓扑初步',
+        'math/analysis/拓扑中的结论',
         'math/analysis/连续性',
+        'math/analysis/多元实分析',
+        'math/analysis/复分析',
         'math/algebra/杂项'
       ],
     },
@@ -26,8 +30,7 @@ module.exports = {
       label: '物理',
       items: [
         'physics/测量与实验',
-        'physics/理论力学',
-        'physics/大学物理实验',
+        'physics/理论力学上',
         'physics/原子物理',
         'physics/振动与波动'
       ]
@@ -37,8 +40,10 @@ module.exports = {
       label: '电路',
       items: [
         'physics/电路',
-        'physics/图'
+        'physics/图',
+        'physics/电路设计'
       ]
-    }
+    },
+    '说明'
   ],
 };
