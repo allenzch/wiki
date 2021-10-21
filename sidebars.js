@@ -16,13 +16,20 @@ module.exports = {
       type: 'category',
       label: '数学',
       items: [
-        'math/analysis/极限',
-        'math/analysis/拓扑初步',
-        'math/analysis/拓扑中的结论',
-        'math/analysis/连续性',
-        'math/analysis/多元实分析',
-        'math/analysis/复分析',
-        'math/algebra/杂项'
+        {
+          type: 'category',
+          label: '分析',
+          items: [
+            'math/analysis/极限',
+            'math/analysis/实分析',
+            'math/analysis/多元实分析',
+            'math/analysis/复分析',
+            //'math/analysis/连续性',
+            'math/analysis/拓扑初步',
+            'math/analysis/拓扑中的结论',
+          ],
+        },
+        'math/algebra/杂项',
       ],
     },
     {
