@@ -38,6 +38,7 @@ module.exports = {
       items: [
         'physics/测量与实验',
         'physics/理论力学上',
+        'physics/理论力学下',
         'physics/原子物理',
         'physics/振动与波动'
       ]
